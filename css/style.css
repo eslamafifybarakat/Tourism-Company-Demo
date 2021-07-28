@@ -1,0 +1,682 @@
+/* global style */
+* {
+  box-sizing: border-box;
+}
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+.active {
+  background-color: rgb(196, 246, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 3px;
+}
+.aboutPage {
+  font-family: monospace;
+  background-image: url("https://images.unsplash.com/photo-1488085061387-422e29b40080?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80");
+  background: 0.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicesPage {
+  font-family: monospace;
+  background-image: url("https://kruthaimooc.com/wp-content/uploads/2020/10/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+img {
+	border-bottom: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: rgb(255, 255, 255) !important;
+  font-size: 40px;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-inverse {
+  background-color: rgba(128, 128, 128, 0.527) !important;
+  border-color: transparent;
+  margin-top: 1px;
+}
+.servicesPage .navbar-inverse {
+  background-color: rgba(128, 128, 128, 0.527) !important;
+  border-color: transparent;
+  margin-top: 1px;
+}
+.aboutPage .navbar-inverse {
+  background-color: rgba(128, 128, 128, 0.527) !important;
+  border-color: transparent;
+  margin-top: 1px;
+}
+
+.nav.navbar-nav.navbar-right > li > a {
+  font-size: 15px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.nav.navbar-nav.navbar-right > li > a:hover {
+  color: rgb(253, 253, 253);
+}
+.servicesPage .nav.navbar-nav.navbar-right > li > a:hover {
+  color: rgb(0, 0, 0);
+}
+.aboutPage .nav.navbar-nav.navbar-right > li > a:hover {
+  color: rgb(255, 255, 255);
+}
+
+header .carousel-inner .item {
+  height: 100vh;
+}
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+  border-color: black;
+}
+.aboutPage .container > h1 {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.aboutPage .container > h4 {
+  color: rgb(197, 0, 0);
+  font-size: 30px;
+}
+
+.aboutPage .container > h1 > span {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.aboutPage .container > h4 > span {
+  color: rgb(46, 0, 253);
+}
+
+.aboutPage .row .col-lg-4 > p {
+  color: rgb(255, 255, 255) !important;
+  font-size: 20px;
+}
+
+.styleBox:hover {
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.servicesPage .row {
+  margin-left: 120px;
+  width: 100%;
+}
+.servicesPage .row .col-xs-12.col-md-6 > img {
+  width: 100%;
+}
+
+.panel {
+  background-color: #440000 !important;
+  color: white;
+  border: 1px solid rgb(0, 0, 0) !important;
+}
+.panel-footer {
+  background-color: #464545;
+  color: wheat;
+}
+
+.panel-heading.panel-title {
+  background-color: black;
+}
+
+.servicesPage .row {
+  margin-top: 12px;
+  margin-right: -80px;
+  margin-left: 50px;
+}
+
+.servicesPage .container .row .image {
+  width: 410px;
+  height: 100%;
+}
+
+.servicesPage .container .row .internationalImage {
+  width: 405px;
+}
+
+.servicesPage .container .row .panel.panel-default {
+  width: 600px;
+}
+@media only screen and (min-width: 1200px) {
+  .border {
+    border: ridge;
+    border-color: wheat;
+  }
+  .button {
+    width: 1010px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .complaintPage .container .row .col-xs-6 {
+    width: 240px;
+    margin-left: 150px;
+  }
+  .complaintPage .container .row .col-xs-6 > p {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin-left: -50px;
+  }
+
+  .complaintPage .container .row .col-xs-12.col-sm-6 > input {
+    width: 350px;
+  }
+
+  .submitBtn {
+    width: 350px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+  }
+
+  .clearBtn {
+    width: 350px;
+    margin-left: -360px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+  }
+  .galleryPage .container .row .panel > p {
+    font-size: 30px;
+    padding-top: 13px;
+    color: rgb(255, 166, 0);
+  }
+  .galleryPage .container .row .panel.page-header {
+    width: 350px;
+  }
+
+  .galleryPage .container .row .carousel {
+    width: 350px;
+    margin-left: -15px;
+    margin-top: -20px;
+  }
+
+  .mainbody .row {
+    margin-left: -10px;
+  }
+  .galleryPage {
+    height: 100%;
+	background-image: url(https://img.texasmonthly.com/2020/02/airplane-seat-recline.jpg?auto=compress&crop=faces&fit=crop&fm=jpg&h=1400&ixlib=php-1.2.1&q=45&w=1400);
+  }
+
+  .contactPage .container .row {
+    margin-left: -80px;
+    margin-bottom: 80px;
+  }
+
+  .contactPage .container .row .col-md-4.col-xs-12 > img {
+    border-radius: 50%;
+    width: 200px;
+    filter: grayscale(50);
+    transform: 1s;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 > img:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading {
+    font-size: 30px;
+    background-color: #0b0b0b;
+    color: wheat;
+    border-radius: 10px;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body:hover {
+    transform: scale(1.05);
+    color: wheat;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > p:hover {
+    transform: scale(1.2);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4 {
+    color: #545454;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body {
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel .panel-heading,
+  .panel-title {
+    background-color: #000000;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel-body {
+    margin-top: -30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .border {
+    border: ridge;
+    border-color: wheat;
+  }
+  .button {
+    width: 900px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .galleryPage .container .row .panel > p {
+    font-size: 30px;
+    padding-top: 13px;
+    color: wheat;
+  }
+  .galleryPage .container .row .panel .page-header {
+    width: 350px;
+  }
+
+  .galleryPage .container .row .carousel {
+    width: 350px;
+    margin-left: -15px;
+    margin-top: -20px;
+  }
+
+  .mainbody .row {
+    margin-left: -10px;
+  }
+  .servicesPage .container .row .image {
+    width: 410px;
+    height: 100%;
+  }
+  .servicesPage .container .row .internationalPanel {
+    width: 435px;
+  }
+  .servicesPage .container .row .internationalImage {
+    width: 450px;
+    margin-left: -12px;
+  }
+  .servicesPage .row {
+    margin-left: 10px;
+  }
+  .servicesPage .container .row .panel.panel-default {
+    width: 460px;
+  }
+
+  .servicesPage .container .row .nationalImage {
+    width: 450px;
+    margin-left: -12px;
+  }
+
+  .complaintPage .container .row .col-xs-6 {
+    width: 240px;
+    margin-left: 150px;
+  }
+  .complaintPage .container .row .col-xs-6 > p {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .complaintPage .container .row .col-xs-12.col-sm-6 > input {
+    width: 350px;
+  }
+
+  .submitBtn {
+    width: 270px;
+    margin-left: 150px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+  }
+
+  .clearBtn {
+    width: 270px;
+    margin-left: -80px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+  }
+  .contactPage .container .row {
+    margin-left: -80px;
+  }
+
+  .contactPage .container .row .col-md-4.col-xs-12 > img {
+    border-radius: 50%;
+    width: 150px;
+    filter: grayscale(50);
+    transform: 1s;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 > img:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading {
+    font-size: 25px;
+    background-color: #0b0b0b;
+    color: wheat;
+    border-radius: 10px;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body:hover {
+    transform: scale(1.05);
+    color: wheat;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > p:hover {
+    transform: scale(1.2);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4 {
+    color: #545454;
+    font-size: 15px;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body {
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel .panel-heading,
+  .panel-title {
+    background-color: #000000;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel-body {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .border {
+    border: ridge;
+    border-color: wheat;
+  }
+  .button {
+    width: 471px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+  }
+  .panel-title {
+    text-align: center;
+  }
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+  }
+
+  .servicesPage .container .row .image {
+    width: 500px;
+    margin-left: 90px;
+  }
+  .servicesPage .container .row .internationalPanel {
+    width: 471px;
+    margin-left: 90px;
+  }
+  .servicesPage .container .row .internationalImage {
+    width: 500px;
+    margin-left: 90px;
+  }
+  .servicesPage .row {
+    margin-left: 10px;
+  }
+  .servicesPage .container .row .panel.panel-default {
+    width: 471px;
+    margin-left: 90px;
+  }
+
+  .servicesPage .container .row .nationalImage {
+    width: 500px;
+    margin-left: 90px;
+  }
+
+  .complaintPage .container .row .col-xs-6 {
+    width: 120px;
+    margin-left: 50px;
+  }
+  .complaintPage .container .row .col-xs-6 > p {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .complaintPage .container .row .col-xs-12.col-sm-6 > input {
+    width: 250px;
+  }
+
+  .submitBtn {
+    width: 410px;
+    margin-right: 180px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+  }
+
+  .clearBtn {
+    width: 410px;
+    margin-top: 10px;
+    margin-right: 180px;
+    background-color: black;
+    color: wheat;
+    font-size: 28px;
+  }
+  .galleryPage .container .row .panel > p {
+    font-size: 30px;
+    padding-top: 13px;
+    color: wheat;
+  }
+  .galleryPage .container .row .panel.page-header {
+    width: 650px;
+  }
+
+  .galleryPage .container .row .carousel {
+    width: 650px;
+    margin-left: -15px;
+    margin-top: -20px;
+  }
+
+  .mainbody .row {
+    margin-left: -1px;
+  }
+
+  .contactPage .container .row {
+    margin-left: -80px;
+    width: 600px;
+  }
+
+  .contactPage .container .row .col-md-4.col-xs-12 > img {
+    border-radius: 50%;
+    width: 150px;
+    filter: grayscale(50);
+    transform: 1s;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 > img:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading {
+    font-size: 30px;
+    background-color: #0b0b0b;
+    color: wheat;
+    border-radius: 10px;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body:hover {
+    transform: scale(1.05);
+    color: wheat;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > p:hover {
+    transform: scale(1.2);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4 {
+    color: #545454;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body {
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel.panel-heading,
+  .panel-title {
+    background-color: #000000;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel-body {
+    margin-top: -30px;
+  }
+
+  .contactPage {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  .button {
+    width: 95%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .panel-title {
+    text-align: center;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .servicesPage .container .row .image {
+    width: 95%;
+  }
+
+  .servicesPage .container .row .internationalPanel {
+    width: 95%;
+  }
+  .servicesPage .container .row .internationalImage {
+    width: 95%;
+  }
+  .servicesPage .row {
+    margin-left: 10px;
+  }
+  .servicesPage .container .row .panel.panel-default {
+    width: 95%;
+  }
+
+  .servicesPage .container .row .nationalImage {
+    width: 95%;
+  }
+  .border {
+    border: ridge;
+    border-color: wheat;
+  }
+  .galleryPage .container .row .panel > p {
+    font-size: 20px;
+    padding-top: 5px;
+    color: wheat;
+  }
+  .galleryPage .container .row .panel.page-header {
+    width: 95%;
+    height: 40px;
+  }
+
+  .galleryPage .container .row .carousel {
+    width: 95%;
+
+    margin-top: -20px;
+  }
+
+  .mainbody .row {
+    margin-left: -1px;
+  }
+  .galleryPage {
+    height: 100%;
+  }
+  .contactPage {
+    height: 100%;
+  }
+
+  .contactPage .container .row {
+    margin-left: -80px;
+    width: 100%;
+  }
+
+  .contactPage .container .row .col-md-4.col-xs-12 > img {
+    border-radius: 50%;
+    width: 38%;
+    filter: grayscale(50);
+    transform: 1s;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 > img:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading {
+    font-size: 30px;
+    background-color: #0b0b0b;
+    color: wheat;
+    border-radius: 10px;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body:hover {
+    transform: scale(1.05);
+    color: wheat;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > p:hover {
+    transform: scale(1.2);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4 {
+    color: #545454;
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-heading > h4:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .contactPage .container .row .col-md-4.col-xs-12 .panel-body {
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel.panel-heading,
+  .panel-title {
+    background-color: #000000;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+
+  .contactPage .container .panel-body {
+    margin-top: -30px;
+  }
+
+  .phone {
+    font-size: 16px;
+  }
+}
+
+.nationalImage {
+  width: 410px;
+}

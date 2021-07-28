@@ -1,0 +1,37 @@
+/* CSS Document */
+body {
+  font-family: monospace;
+}
+/* banner */
+.banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.carousel-caption {
+  margin: auto;
+  margin-top: 20px;
+}
+.carousel-caption > h1 {
+  color: rgb(255, 255, 255);
+}
+.carousel-caption > h1 > span {
+  color: rgb(246, 250, 0);
+}
+
+.contact {
+  border-radius: 40px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  margin-top: 20px;
+}
+.contact > a {
+  margin-top: 4px;
+  color: white;
+  text-decoration: none;
+}
